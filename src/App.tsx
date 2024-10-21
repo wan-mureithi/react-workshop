@@ -1,15 +1,14 @@
 import { useState } from 'react'
-import './App.css'
 import Users from './views/Users'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-    <p className='text-lg'>Test app</p>
-    <Users/>
-    </>
+    <div style={{ paddingLeft: 20 }}>
+      <p className="text-3xl font-bold underline">Test app</p>
+      <Users />
+    </div>
   )
 }
 
